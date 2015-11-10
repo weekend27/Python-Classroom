@@ -1,9 +1,9 @@
 # -*- coding:utf-8 -*-
 #! /bin/env python3
 
-'a for loop test'     
-
 __author__ = 'weekend27'
+
+# for-loop test
 
 # print list
 names = ['Weekend', 'Yoga', 'Michael']

@@ -1,9 +1,9 @@
 # -*- coding:utf-8 -*-
-#! /bin/env python3
-
-'an if test'     
+#! /bin/env python3   
 
 __author__ = 'weekend27'
+
+# if test
 
 grade = int(input('Input your grade: '))
 

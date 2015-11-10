@@ -1,9 +1,9 @@
 # -*- coding:utf-8 -*-
 #! /bin/env python3
 
-'while test'
-
 __author__ = 'weekend27'
+
+# while test
 
 # calculate 1+2+3+...+100
 sum = 0

@@ -1,6 +1,8 @@
 #！/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+__author__ = 'weekend27'
+
 print('中文的世界')
 
 print('Hello, %s' % 'world')
