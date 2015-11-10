@@ -1,3 +1,8 @@
+# -*- coding:utf-8 -*-
+#! /bin/env python3  
+
+__author__ = 'weekend27'
+
 #bubble sort
 
 array = [1,2,5,3,6,8,4]
