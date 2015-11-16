@@ -14,7 +14,7 @@ from collections import deque
 queue = deque()
 visited = set()
 
-url = 'http://www.inspireme.cn'   # 入口页面
+url = 'http://www.zhihu.com'   # 入口页面
 
 queue.append(url)
 cnt = 0
@@ -25,7 +25,7 @@ while queue:
 
     print('已经抓取：' + str(cnt) + '    正在抓取 <---  ' + url)
     cnt += 1
-    urlop = urllib.request.urlopen(url)
+    urlop = urllib.request.urlopen(url, timeout = 2)
     if 'html' not in urlop.getheader('Content-Type'):
         continue
 
