@@ -7,6 +7,7 @@ __author__ = "weekend27"
 
 import http.cookiejar
 import urllib.request
+
 def getOpener(head):
     # deal with the Cookie
     cj = http.cookiejar.CookieJar()
