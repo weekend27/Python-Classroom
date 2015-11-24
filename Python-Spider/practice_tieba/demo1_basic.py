@@ -20,8 +20,8 @@ class BDTB:
 			url = self.baseUrl + self.seeLZ + '&pn=' + str(pageNum)
 			req = urllib2.Request(url)
 			response = urllib2.urlopen(req)
-			print response.read()
-			return response
+			# print response.read()
+			return response.read().decode('utf-8')
 		except urllib2.URLError, e:
 			if hasattr(e, "reason"):
 				print u"连接百度贴吧失败,错误原因:", e.reason
