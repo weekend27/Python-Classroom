@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 # ref:https://github.com/omengye/spider
 
 import urllib.request
