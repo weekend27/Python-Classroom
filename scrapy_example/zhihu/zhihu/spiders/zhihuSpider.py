@@ -47,8 +47,8 @@ class zhihuSpider(CrawlSpider) :
                             headers = self.headers,
                             formdata = {
                             '_xsrf': xsrf,
-                            'email': 'hwj278@mail.ustc.edu.cn',
-                            'password': 'hwjyj1024'
+                            'email': 'XXXXX',
+                            'password': 'XXXXX'
                             },
                             callback = self.after_login,
                             dont_filter = True

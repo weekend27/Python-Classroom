@@ -1,17 +1,17 @@
 # -*- coding: utf-8 -*-
 UsersConfig = {
     # 代理
-    'proxy': 'http://1.56.128.191:8090',
+    'proxy': '',
 
     # 知乎用户名和密码
-    'email': 'hwj278@mail.ustc.edu.cn',
-    'password': 'hwjyj1024',
+    'email': 'XXXXX',
+    'password': 'XXXXX',
 }
 
 DbConfig = {
     # db config
     'user': 'root',
-    'passwd': '111111',
+    'passwd': '',
     'db': 'zhihuUserData',
     'host': '127.0.0.1',
 }

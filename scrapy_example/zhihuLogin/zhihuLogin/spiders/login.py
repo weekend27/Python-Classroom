@@ -9,8 +9,8 @@ mode = 2
 proxy = "https://web-proxy.oa.com:8080" if mode == 1 else ""
 
 #设置 用户名和密码
-email = "hwj278@mail.ustc.edu.cn"
-password = "hwjyj1024"
+email = "XXXXX"
+password = "XXXXX"
 
 
 class zhihuLoginSpider(scrapy.Spider):
